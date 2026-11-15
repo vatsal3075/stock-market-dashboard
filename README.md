@@ -3,7 +3,7 @@
 Interactive dashboard to analyse Nifty 50 stocks: returns, volatility,
 Sharpe ratio, correlation and moving averages.
 
-**Live demo:** (link yahan aayega)
+**Live demo:** https://indian-stock-market-dashboard.streamlit.app/
 
 ## Features
 - Select stocks and time period (6 months to 5 years)
