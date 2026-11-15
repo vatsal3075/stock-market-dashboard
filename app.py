@@ -8,7 +8,7 @@ st.set_page_config(page_title="Indian Stock Dashboard", page_icon="📈", layout
 st.title("📈 Indian Stock Market Dashboard")
 st.caption("Educational analysis only, not investment advice.")
 
-all_stocks = ["RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS", "ITC.NS", "SBIN.NS"]
+all_stocks = ["RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS", "ITC.NS", "SBIN.NS", "WIPRO.NS"]
 
 selected = st.sidebar.multiselect("Select stocks", all_stocks, default=all_stocks)
 period = st.sidebar.selectbox("Time period", ["6mo", "1y", "3y", "5y"], index=1)
